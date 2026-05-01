@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lipos - Privacy Policy & Terms</title>
+    <title>Lipos - Privacy Policy & Terms of Service</title>
     <style>
         :root {
             --primary-color: #1d1d1f;
             --secondary-color: #86868b;
             --accent-color: #0071e3;
             --bg-color: #ffffff;
+            --box-bg: #f5f5f7;
+            --border-color: #e5e5ea;
         }
 
         body {
@@ -24,7 +26,7 @@
         }
 
         .container {
-            max-width: 700px;
+            max-width: 750px;
             width: 100%;
         }
 
@@ -34,33 +36,34 @@
         }
 
         .logo {
-            width: 80px;
-            height: 80px;
+            width: 84px;
+            height: 84px;
             border-radius: 18px;
             margin-bottom: 20px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 14px rgba(0,0,0,0.08);
         }
 
         h1 {
-            font-size: 36px;
+            font-size: 34px;
             font-weight: 700;
             letter-spacing: -0.5px;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
         }
 
         .date {
             color: var(--secondary-color);
             font-size: 14px;
-            margin-bottom: 10px;
+            margin-bottom: 16px;
         }
 
         .dev-info {
-            font-size: 14px;
+            font-size: 13px;
             color: var(--secondary-color);
-            background: #f5f5f7;
-            padding: 10px;
-            border-radius: 8px;
+            background: var(--box-bg);
+            padding: 12px 20px;
+            border-radius: 10px;
             display: inline-block;
+            border: 1px solid var(--border-color);
         }
 
         section {
@@ -68,15 +71,23 @@
         }
 
         h2 {
-            font-size: 22px;
+            font-size: 20px;
             font-weight: 600;
-            margin-bottom: 15px;
-            border-bottom: 1px solid #f2f2f2;
-            padding-bottom: 10px;
+            margin-bottom: 16px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+            color: #111;
+        }
+
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            margin-top: 20px;
         }
 
         p, li {
-            font-size: 16px;
+            font-size: 15px;
             color: #333333;
             margin-bottom: 14px;
         }
@@ -86,11 +97,17 @@
             padding-left: 20px;
         }
 
+        strong {
+            font-weight: 600;
+            color: #000;
+        }
+
         .contact-box {
-            background-color: #f5f5f7;
+            background-color: var(--box-bg);
             padding: 25px;
             border-radius: 12px;
-            margin-top: 40px;
+            margin-top: 50px;
+            border: 1px solid var(--border-color);
         }
 
         .contact-link {
@@ -114,57 +131,77 @@
 <div class="container">
     <div class="header">
         <img src="Lipos_iconF.png" alt="Lipos Logo" class="logo" onerror="this.style.display='none'">
-        <h1>Privacy Policy & Terms</h1>
-        <p class="date">Effective Date: May 1, 2026</p>
+        <h1>Privacy Policy & Terms of Service</h1>
+        <p class="date">Last Updated: May 1, 2026</p>
         <div class="dev-info">
-            <strong>Data Controller:</strong> Melih Can Durmaz<br>
+            <strong>Developer & Data Controller:</strong> Melih Can Durmaz<br>
             Istanbul, Turkey
         </div>
     </div>
 
     <section>
-        <p>This document outlines the Privacy Policy and End User License Agreement (EULA) for the <strong>Lipos</strong> application. By downloading and using Lipos, you agree to the terms described below.</p>
-    </section>
-
-    <section>
-        <h2>1. Intended Audience and Age Restriction</h2>
-        <p>Lipos is a Business-to-Business (B2B) tool designed for cafe and restaurant owners. The App is intended for individuals who are 18 years of age or older. We do not knowingly market to or collect information from children.</p>
-    </section>
-
-    <section>
-        <h2>2. Data Collection and Local Storage</h2>
-        <p>Lipos operates as an offline-first Point of Sale (POS) system. <strong>We do not actively collect, harvest, or transmit your business data (such as orders, revenues, or menus) to our own servers.</strong> All your operational data is stored locally and securely on your device via Apple's Core Data framework.</p>
-        <p><strong>System Data:</strong> While we do not collect personal data, please note that Apple may collect automated, anonymized crash reports and usage metrics if you have opted-in to share analytics with developers in your iOS settings.</p>
-    </section>
-
-    <section>
-        <h2>3. Subscriptions and Payment Processing</h2>
-        <p>Lipos offers premium features through auto-renewing subscriptions and one-time purchases. <strong>We do not process or have access to your credit card information.</strong> All financial transactions and subscription statuses are managed entirely by Apple Inc. (StoreKit). Your payment data is handled in accordance with Apple's privacy policies.</p>
-    </section>
-
-    <section>
-        <h2>4. Data Security and Recommended Backups</h2>
-        <p>Because your business data resides solely on your hardware, we cannot view or restore it remotely. To ensure business continuity and prevent data loss in the event of device damage or app deletion, <strong>we highly recommend keeping iCloud backups enabled</strong> or performing regular manual backups of your device.</p>
-    </section>
-
-    <section>
-        <h2>5. End User License Agreement (EULA)</h2>
-        <p>By using Lipos, you agree to the following terms:</p>
+        <h2>1. Definitions</h2>
         <ul>
-            <li><strong>Auto-Renewal:</strong> Subscriptions automatically renew unless auto-renew is turned off at least 24 hours before the end of the current period.</li>
-            <li><strong>Management:</strong> You can manage or cancel your subscriptions at any time via your Apple ID Account Settings. Deleting the App does not cancel your subscription.</li>
-            <li><strong>Limitation of Liability:</strong> Lipos is provided "as is" to assist with business management. To the maximum extent permitted by law, the developer shall not be liable for any direct, indirect, or incidental damages, loss of profits, or data loss. Users are responsible for verifying tax calculations and financial reports before using them for official accounting.</li>
+            <li><strong>"App"</strong> refers to the Lipos Point of Sale (POS) iOS application.</li>
+            <li><strong>"Developer", "We", "Us"</strong> refers to Melih Can Durmaz.</li>
+            <li><strong>"User", "You"</strong> refers to the individual or business entity using the App.</li>
+            <li><strong>"Device"</strong> refers to the Apple device (iPad, iPhone) on which the App is installed.</li>
         </ul>
     </section>
 
     <section>
-        <h2>6. Governing Law and Dispute Resolution</h2>
-        <p>These terms and your use of the App shall be governed by the laws of the Republic of Turkey. Any disputes arising out of or in connection with this agreement shall be subject to the exclusive jurisdiction of the courts of Istanbul, Turkey.</p>
+        <h2>2. Data Collection and Processing</h2>
+        <h3>2.1. Offline-First Architecture (No Direct Collection)</h3>
+        <p>Lipos operates primarily as an offline tool. <strong>We do not directly collect, harvest, transmit, or store any of your personal data, business data, menus, financial reports, or customer details on our own external servers.</strong> All operational data generated within the App is stored securely and exclusively on your Device using Apple’s Core Data framework.</p>
+        
+        <h3>2.2. Third-Party Processing (Apple Inc.)</h3>
+        <p>While we do not collect personal data, Apple Inc. acts as a third-party data processor. Depending on your iOS settings, Apple may collect automated, anonymized crash reports, analytics, and device information to ensure app stability. Furthermore, all in-app purchases and subscriptions are processed by Apple's StoreKit. <strong>We do not control, see, or store this data.</strong> We recommend reviewing <a href="https://www.apple.com/legal/privacy/" target="_blank" class="contact-link">Apple’s Privacy Policy</a> for more details.</p>
+    </section>
+
+    <section>
+        <h2>3. GDPR & KVKK Compliance (Your Rights)</h2>
+        <p>Under the General Data Protection Regulation (GDPR) and the Turkish Personal Data Protection Law (KVKK), you have the right to access, rectify, or erase your personal data.</p>
+        <p><strong>Exercising Your Rights:</strong> Because the Developer does not hold or process your data on any external servers, you have full and absolute control over your information. To exercise your right to erasure (Right to be Forgotten), you simply need to delete the App from your Device, which will permanently destroy the local database. For data related to payments or subscriptions, you must exercise your rights directly through Apple via your Apple ID account.</p>
+    </section>
+
+    <section>
+        <h2>4. Subscriptions and Payments</h2>
+        <p>Lipos offers premium features via auto-renewing subscriptions and one-time lifetime licenses. We do not have access to your credit card information or billing address. By purchasing a subscription, you agree to the following:</p>
+        <ul>
+            <li>Subscriptions automatically renew unless auto-renew is turned off at least 24 hours before the end of the current period.</li>
+            <li>You can manage or cancel your subscriptions at any time via your Apple ID Account Settings.</li>
+            <li>Deleting the App from your device does <strong>not</strong> automatically cancel your active subscriptions.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>5. End User License Agreement (EULA) & Termination</h2>
+        <p>The Developer grants you a revocable, non-exclusive, non-transferable, limited license to download, install, and use the App strictly in accordance with these Terms.</p>
+        <p><strong>Termination:</strong> We reserve the right to terminate or revoke your license to use the App immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach these Terms (e.g., attempting to reverse-engineer the App or engaging in fraudulent transactions).</p>
+    </section>
+
+    <section>
+        <h2>6. Limitation of Liability and Disclaimers (Important)</h2>
+        <h3>6.1. No Guarantee of Financial Accuracy</h3>
+        <p>Lipos is provided "as is" as a tool to assist in daily cafe management. <strong>It is not intended for official accounting or tax filing without independent verification.</strong> The User is solely responsible for verifying the accuracy of all tax calculations, Z-reports, and financial totals. The Developer shall not be held liable for any accounting errors, tax discrepancies, or financial losses.</p>
+
+        <h3>6.2. Absolute Disclaimer for Data Loss</h3>
+        <p>Because all data is stored locally, <strong>under no circumstances shall the Developer be held liable for any loss of data, revenues, or business interruption.</strong> It is the User's sole and absolute responsibility to maintain proper backups of their Device (e.g., via iCloud) to prevent data loss due to hardware failure, software corruption, or accidental App deletion.</p>
+    </section>
+
+    <section>
+        <h2>7. Updates to This Policy</h2>
+        <p>We reserve the right to modify or replace this Privacy Policy and Terms of Service at any time. Any changes will be effective immediately upon posting the updated document, reflected by the "Last Updated" date at the top of this page. Your continued use of the App after any such changes constitutes your acceptance of the new Terms.</p>
+    </section>
+
+    <section>
+        <h2>8. Governing Law and Jurisdiction</h2>
+        <p>These Terms shall be governed and construed in accordance with the laws of the Republic of Turkey, without regard to its conflict of law provisions. Any disputes arising from or relating to the use of the App shall be subject to the exclusive jurisdiction of the courts located in Istanbul, Turkey.</p>
     </section>
 
     <section class="contact-box">
-        <h2>7. Contact Us</h2>
-        <p>If you have any questions regarding this policy, your data, or require support, please contact us directly:</p>
+        <h2>9. Contact Us</h2>
+        <p>If you have any questions, concerns, or requests regarding this Privacy Policy or the Terms of Service, please contact us:</p>
         <p><strong>Email:</strong> <a href="mailto:lipos.support@proton.me" class="contact-link">lipos.support@proton.me</a></p>
     </section>
 </div>
